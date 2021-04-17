@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
 
-:root{
+/* :root{
     --primary-color: #EF4444;
-}
+} */
 body{
     font-family: 'Original Surfer', cursive;
-    padding: 2rem;
+    padding-top: 0.7rem;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -22,6 +22,7 @@ body{
     border-radius: 3rem;
     width: 40rem;
     margin: auto;
+
     
 }
 
