@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+:root{
+    --primary-color: #EF4444;
+}
+body{
+    font-family: 'Original Surfer', cursive;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: black;
+    background-image: url("https://miro.medium.com/max/2000/1*AGCypFW8xZA3I72c-OBAnw.png");
+    background-size: cover;
+    margin: 0.5rem;
+
+}
+.header{
+    background-image: linear-gradient(65deg, red,blue);
+    padding: 1rem;
+    border-radius: 3rem;
+    width: 40rem;
+    margin: auto;
+    
+}
+
+.inputText{
+    width: 40rem;
+    height: 10rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    background-image: linear-gradient(210deg, red,blue);
+
+}
+
+.header__heading{
+    color: black;
+    font-size: 2.5rem;
+
+}
+
+.translate__button{
+    background-image: linear-gradient(65deg,rgb(63, 190, 190),rgb(47, 47, 216));
+
+    border: 0.1rem solid cyan;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+
+.output__box{
+    border: 0.1rem solid cyan;
+    width: 40rem;
+    height: 10rem;
+    margin: auto;
+    border-radius: 2rem;
+    font-size: 2rem;
+    color: black;
+    background-image: linear-gradient(65deg, red,blue);
+}
